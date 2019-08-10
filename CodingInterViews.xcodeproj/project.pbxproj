@@ -15,6 +15,7 @@
 		C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */; };
 		C5D9F83822FE83D4004FD801 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83722FE83D4004FD801 /* Fibonacci.swift */; };
 		C5D9F83A22FE86EB004FD801 /* countOfOneInBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83922FE86EB004FD801 /* countOfOneInBinary.swift */; };
+		C5D9F83C22FE9B84004FD801 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83B22FE9B84004FD801 /* Power.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinNumInRotateArray.swift; sourceTree = "<group>"; };
 		C5D9F83722FE83D4004FD801 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		C5D9F83922FE86EB004FD801 /* countOfOneInBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countOfOneInBinary.swift; sourceTree = "<group>"; };
+		C5D9F83B22FE9B84004FD801 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */,
 				C556221C22FC7519000A8C0C /* replaceSpace.swift */,
 				C5D9F83922FE86EB004FD801 /* countOfOneInBinary.swift */,
+				C5D9F83B22FE9B84004FD801 /* Power.swift */,
 			);
 			path = CodingInterViews;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */,
 				C5385F2C22FE439700B5110C /* PrintListFormTailToHead.swift in Sources */,
 				C5D9F83422FE7BB5004FD801 /* UseStackImpQueue.swift in Sources */,
+				C5D9F83C22FE9B84004FD801 /* Power.swift in Sources */,
 				C5D9F83A22FE86EB004FD801 /* countOfOneInBinary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

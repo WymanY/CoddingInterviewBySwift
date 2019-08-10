@@ -96,11 +96,14 @@ _ = q.pop()
 //旋转数组中的最小的值
 let min =  minNumOf(rotateArray: [4,5,6,91,2,3])
 print(min)
- */
-
-/*二进制中的1的数目*/
-
+ 
+//二进制中的1的数目
 let n = countOf2(num: -11)
 print(n)
+
+ */
+
+let  ret = power(1.2, exponent: -2)
+print(ret)
 
 
