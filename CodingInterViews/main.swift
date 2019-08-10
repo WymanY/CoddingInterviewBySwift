@@ -98,4 +98,9 @@ let min =  minNumOf(rotateArray: [4,5,6,91,2,3])
 print(min)
  */
 
+/*二进制中的1的数目*/
+
+let n = countOf2(num: -11)
+print(n)
+
 
