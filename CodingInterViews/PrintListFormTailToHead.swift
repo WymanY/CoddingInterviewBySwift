@@ -8,18 +8,18 @@
 
 import Foundation
 
-public class ListNode<T:Comparable> {
-    public var val:T
+public class ListNode {
+    public var val:Int
     public var next:ListNode?
-    public init(_ val:T) {
+    public init(_ val:Int) {
         self.val = val
         self.next =  nil
     }
 }
 
-func buildListFrom(arr:[Int]) -> ListNode<Int> {
-    var h:ListNode<Int>? = nil
-    var node:ListNode<Int>?
+func buildListFrom(arr:[Int]) -> ListNode {
+    var h:ListNode? = nil
+    var node:ListNode?
     for val in arr {
         if h == nil {
             h = ListNode(val)
@@ -34,12 +34,12 @@ func buildListFrom(arr:[Int]) -> ListNode<Int> {
 }
 
 
-func printListFromTailToHead(root:ListNode<Int>?) {
+func printListFromTailToHead(root:ListNode?) {
     guard var root = root else {
         return
     }
     
-    var stack:Array<ListNode<Int>> = [root]
+    var stack:Array<ListNode> = [root]
     while root.next != nil {
         stack.append(root.next!)
         root = root.next!
