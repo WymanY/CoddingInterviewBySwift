@@ -70,7 +70,9 @@ print(n)
 //打印从 1到最大的N位数
 var s = Soultion(2)
 s.printN()
-
  */
 
+var arr = [1,3,5,4,7,6,9,12,21];
+var a2 = reOrderArray2(arr: arr)
+print(a2)
 
