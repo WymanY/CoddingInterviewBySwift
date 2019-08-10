@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5385F2C22FE439700B5110C /* PrintListFormTailToHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */; };
+		C5385F2E22FE4B6B00B5110C /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */; };
 		C556221622FC6785000A8C0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221522FC6785000A8C0C /* main.swift */; };
+		C556221D22FC7519000A8C0C /* replaceSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221C22FC7519000A8C0C /* replaceSpace.swift */; };
+		C5D9F83422FE7BB5004FD801 /* UseStackImpQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */; };
+		C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */; };
+		C5D9F83822FE83D4004FD801 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83722FE83D4004FD801 /* Fibonacci.swift */; };
+		C5D9F83A22FE86EB004FD801 /* countOfOneInBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83922FE86EB004FD801 /* countOfOneInBinary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintListFormTailToHead.swift; sourceTree = "<group>"; };
+		C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
 		C556221222FC6785000A8C0C /* CodingInterViews */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingInterViews; sourceTree = BUILT_PRODUCTS_DIR; };
 		C556221522FC6785000A8C0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C556221C22FC7519000A8C0C /* replaceSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = replaceSpace.swift; sourceTree = "<group>"; };
+		C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseStackImpQueue.swift; sourceTree = "<group>"; };
+		C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinNumInRotateArray.swift; sourceTree = "<group>"; };
+		C5D9F83722FE83D4004FD801 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		C5D9F83922FE86EB004FD801 /* countOfOneInBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countOfOneInBinary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				C556221522FC6785000A8C0C /* main.swift */,
+				C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */,
+				C5D9F83722FE83D4004FD801 /* Fibonacci.swift */,
+				C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */,
+				C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */,
+				C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */,
+				C556221C22FC7519000A8C0C /* replaceSpace.swift */,
+				C5D9F83922FE86EB004FD801 /* countOfOneInBinary.swift */,
 			);
 			path = CodingInterViews;
 			sourceTree = "<group>";
@@ -120,6 +141,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C556221622FC6785000A8C0C /* main.swift in Sources */,
+				C556221D22FC7519000A8C0C /* replaceSpace.swift in Sources */,
+				C5385F2E22FE4B6B00B5110C /* RebuildBinaryTree.swift in Sources */,
+				C5D9F83822FE83D4004FD801 /* Fibonacci.swift in Sources */,
+				C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */,
+				C5385F2C22FE439700B5110C /* PrintListFormTailToHead.swift in Sources */,
+				C5D9F83422FE7BB5004FD801 /* UseStackImpQueue.swift in Sources */,
+				C5D9F83A22FE86EB004FD801 /* countOfOneInBinary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
