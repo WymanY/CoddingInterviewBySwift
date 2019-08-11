@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C5368F3322FFC05C0053AA12 /* 22-TheOrderOfStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5368F3222FFC05C0053AA12 /* 22-TheOrderOfStack.swift */; };
+		C5368F35230005660053AA12 /* 21-LevelTravelsal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5368F34230005660053AA12 /* 21-LevelTravelsal.swift */; };
+		C5368F3723000FAD0053AA12 /* 24-PostOrderOfBinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5368F3623000FAD0053AA12 /* 24-PostOrderOfBinarySearchTree.swift */; };
 		C5385F2C22FE439700B5110C /* PrintListFormTailToHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */; };
 		C5385F2E22FE4B6B00B5110C /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */; };
 		C556221622FC6785000A8C0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221522FC6785000A8C0C /* main.swift */; };
@@ -43,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		C5368F3222FFC05C0053AA12 /* 22-TheOrderOfStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22-TheOrderOfStack.swift"; sourceTree = "<group>"; };
+		C5368F34230005660053AA12 /* 21-LevelTravelsal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21-LevelTravelsal.swift"; sourceTree = "<group>"; };
+		C5368F3623000FAD0053AA12 /* 24-PostOrderOfBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24-PostOrderOfBinarySearchTree.swift"; sourceTree = "<group>"; };
 		C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintListFormTailToHead.swift; sourceTree = "<group>"; };
 		C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
 		C556221222FC6785000A8C0C /* CodingInterViews */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingInterViews; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,8 @@
 				C5A676CA22FFAC5C003A2BD4 /* 20-PrintMatrix.swift */,
 				C5A676CC22FFAE44003A2BD4 /* 21- minFunctionOfStack.swift */,
 				C5368F3222FFC05C0053AA12 /* 22-TheOrderOfStack.swift */,
+				C5368F34230005660053AA12 /* 21-LevelTravelsal.swift */,
+				C5368F3623000FAD0053AA12 /* 24-PostOrderOfBinarySearchTree.swift */,
 				C5D9F83922FE86EB004FD801 /* CountOfOneInBinary.swift */,
 				C5D9F83722FE83D4004FD801 /* Fibonacci.swift */,
 				C556221522FC6785000A8C0C /* main.swift */,
@@ -181,6 +187,8 @@
 				C5385F2E22FE4B6B00B5110C /* RebuildBinaryTree.swift in Sources */,
 				C5A676BD22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift in Sources */,
 				C5A676BF22FEE95C003A2BD4 /* 14-ReOrderArray.swift in Sources */,
+				C5368F35230005660053AA12 /* 21-LevelTravelsal.swift in Sources */,
+				C5368F3723000FAD0053AA12 /* 24-PostOrderOfBinarySearchTree.swift in Sources */,
 				C5D9F83822FE83D4004FD801 /* Fibonacci.swift in Sources */,
 				C5A676CB22FFAC5C003A2BD4 /* 20-PrintMatrix.swift in Sources */,
 				C5A676C922FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift in Sources */,

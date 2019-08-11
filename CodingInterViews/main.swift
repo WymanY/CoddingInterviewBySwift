@@ -81,5 +81,25 @@ let h =  buildListFrom(arr: [12,10,5,8,9])
 let node =  findKthNodeToTail(root: h, k: 10)
 print(node?.val)
  
+ //21,二叉树的层级遍历
+    2
+   5 8
+ 7 9 11
  */
+let t1 = TreeNode(val: 2)
+let t2 = TreeNode(val: 5)
+let t3 = TreeNode(val: 8)
+let t4 = TreeNode(val: 7)
+let t5 = TreeNode(val: 9)
+let t6 = TreeNode(val: 11)
+t1.left = t2
+t1.right = t3
+t2.left = t4
+t2.right = t5
+t3.right = t6
+
+levelTravesal(root: t1)
+
+
+
 
