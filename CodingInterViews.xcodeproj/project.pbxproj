@@ -17,6 +17,7 @@
 		C5A676C322FF012C003A2BD4 /* 16-ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A676C222FF012C003A2BD4 /* 16-ReverseList.swift */; };
 		C5A676C522FF9CE9003A2BD4 /* 17-MergeSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A676C422FF9CE9003A2BD4 /* 17-MergeSortedList.swift */; };
 		C5A676C722FFA185003A2BD4 /* 18-SubstructureOfTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A676C622FFA185003A2BD4 /* 18-SubstructureOfTree.swift */; };
+		C5A676C922FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A676C822FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift */; };
 		C5D9F83422FE7BB5004FD801 /* UseStackImpQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */; };
 		C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */; };
 		C5D9F83822FE83D4004FD801 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83722FE83D4004FD801 /* Fibonacci.swift */; };
@@ -49,6 +50,7 @@
 		C5A676C222FF012C003A2BD4 /* 16-ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16-ReverseList.swift"; sourceTree = "<group>"; };
 		C5A676C422FF9CE9003A2BD4 /* 17-MergeSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17-MergeSortedList.swift"; sourceTree = "<group>"; };
 		C5A676C622FFA185003A2BD4 /* 18-SubstructureOfTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18-SubstructureOfTree.swift"; sourceTree = "<group>"; };
+		C5A676C822FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19-MirrorOfBinaryTree.swift"; sourceTree = "<group>"; };
 		C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseStackImpQueue.swift; sourceTree = "<group>"; };
 		C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinNumInRotateArray.swift; sourceTree = "<group>"; };
 		C5D9F83722FE83D4004FD801 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				C5A676C222FF012C003A2BD4 /* 16-ReverseList.swift */,
 				C5A676C422FF9CE9003A2BD4 /* 17-MergeSortedList.swift */,
 				C5A676C622FFA185003A2BD4 /* 18-SubstructureOfTree.swift */,
+				C5A676C822FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift */,
 				C5D9F83922FE86EB004FD801 /* CountOfOneInBinary.swift */,
 				C5D9F83722FE83D4004FD801 /* Fibonacci.swift */,
 				C556221522FC6785000A8C0C /* main.swift */,
@@ -170,6 +173,7 @@
 				C5A676BD22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift in Sources */,
 				C5A676BF22FEE95C003A2BD4 /* 14-ReOrderArray.swift in Sources */,
 				C5D9F83822FE83D4004FD801 /* Fibonacci.swift in Sources */,
+				C5A676C922FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift in Sources */,
 				C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */,
 				C5A676C322FF012C003A2BD4 /* 16-ReverseList.swift in Sources */,
 				C5A676C122FEF6C6003A2BD4 /* 15-FindKthNodeToTail.swift in Sources */,
