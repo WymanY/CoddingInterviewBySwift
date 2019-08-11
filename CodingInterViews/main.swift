@@ -75,10 +75,11 @@ s.printN()
 var arr = [1,3,5,4,7,6,9,12,21];
 var a2 = reOrderArray2(arr: arr)
 print(a2)
-*/
- //15.链表倒数第K 个节点
 
+ //15.链表倒数第K 个节点
 let h =  buildListFrom(arr: [12,10,5,8,9])
 let node =  findKthNodeToTail(root: h, k: 10)
 print(node?.val)
+ 
+ */
 
