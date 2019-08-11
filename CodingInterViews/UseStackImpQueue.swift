@@ -13,7 +13,7 @@ public class Queue {
     var stackOut:[Int] = [Int]()
     
     func push(node:Int) {
-        stackIn.append(node)
+        stackIn.insert(node, at: 0)
     }
     
     var isEmpty:Bool {
@@ -32,7 +32,7 @@ public class Queue {
         if stackOut.isEmpty {
             while !stackIn.isEmpty {
                 node = stackIn.removeFirst()
-                stackOut.append(node)
+                stackOut.insert(node, at: 0)
             }
         }
         
