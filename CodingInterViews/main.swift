@@ -110,7 +110,7 @@ print(node?.val)
     2
    5 8
  7 9 11
- */
+ 
 let t1 = TreeNode(val: 2)
 let t2 = TreeNode(val: 5)
 let t3 = TreeNode(val: 8)
@@ -124,6 +124,10 @@ t2.right = t5
 t3.right = t6
 
 levelTravesal(root: t1)
+ 
+ */
+
+permutation(str: ["a","b","c"])
 
 
 

@@ -26,6 +26,7 @@
 		C5A676CD22FFAE44003A2BD4 /* 21- minFunctionOfStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A676CC22FFAE44003A2BD4 /* 21- minFunctionOfStack.swift */; };
 		C5CD92AE2302C02F0099378B /* 26-ComplexListNodeClone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD92AD2302C02F0099378B /* 26-ComplexListNodeClone.swift */; };
 		C5CD92B02302FC8E0099378B /* 27-ConvertBST2SortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD92AF2302FC8E0099378B /* 27-ConvertBST2SortedList.swift */; };
+		C5CD92B223030BA10099378B /* 28-permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD92B123030BA10099378B /* 28-permutation.swift */; };
 		C5D9F83422FE7BB5004FD801 /* UseStackImpQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */; };
 		C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */; };
 		C5D9F83822FE83D4004FD801 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9F83722FE83D4004FD801 /* Fibonacci.swift */; };
@@ -67,6 +68,7 @@
 		C5A676CC22FFAE44003A2BD4 /* 21- minFunctionOfStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21- minFunctionOfStack.swift"; sourceTree = "<group>"; };
 		C5CD92AD2302C02F0099378B /* 26-ComplexListNodeClone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26-ComplexListNodeClone.swift"; sourceTree = "<group>"; };
 		C5CD92AF2302FC8E0099378B /* 27-ConvertBST2SortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27-ConvertBST2SortedList.swift"; sourceTree = "<group>"; };
+		C5CD92B123030BA10099378B /* 28-permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28-permutation.swift"; sourceTree = "<group>"; };
 		C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseStackImpQueue.swift; sourceTree = "<group>"; };
 		C5D9F83522FE8108004FD801 /* MinNumInRotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinNumInRotateArray.swift; sourceTree = "<group>"; };
 		C5D9F83722FE83D4004FD801 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				C5368F34230005660053AA12 /* 21-LevelTravelsal.swift */,
 				C5368F3623000FAD0053AA12 /* 24-PostOrderOfBinarySearchTree.swift */,
 				C5CD92AF2302FC8E0099378B /* 27-ConvertBST2SortedList.swift */,
+				C5CD92B123030BA10099378B /* 28-permutation.swift */,
 				C5368F96230060970053AA12 /* 59-SymmetricalTree.swift */,
 				C5CD92AD2302C02F0099378B /* 26-ComplexListNodeClone.swift */,
 				C5D9F83922FE86EB004FD801 /* CountOfOneInBinary.swift */,
@@ -201,6 +204,7 @@
 				C5368F3723000FAD0053AA12 /* 24-PostOrderOfBinarySearchTree.swift in Sources */,
 				C5CD92AE2302C02F0099378B /* 26-ComplexListNodeClone.swift in Sources */,
 				C5D9F83822FE83D4004FD801 /* Fibonacci.swift in Sources */,
+				C5CD92B223030BA10099378B /* 28-permutation.swift in Sources */,
 				C5A676CB22FFAC5C003A2BD4 /* 20-PrintMatrix.swift in Sources */,
 				C5A676C922FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift in Sources */,
 				C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */,
