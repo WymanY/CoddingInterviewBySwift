@@ -33,6 +33,27 @@ private func permutation(str:[Character],begin:Int) {
         print(str)
     }
     var i = begin
+    /*
+     i = 0 ,begin = 0
+     permutaion(abc 0)
+   
+     =>
+     abc 1  i = 2, begin = 1, i = 2 , begin = 2, i = 2 ,begin = 3
+     abc 2  begin  = 2,i = 2, i = 3,begin = 2   acb  begin 3  = > acb, abc,
+     abc 3
+     */
+    
+    /*
+      i = 1,begin = 0
+     */
+    
+    /*
+      i = 2 ,begin = 0
+     */
+    
+    /*
+     i = 3,begin = 0
+    */
     
     while i < charsets.count {
         var tmp = charsets[i]
