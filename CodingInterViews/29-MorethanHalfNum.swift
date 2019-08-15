@@ -26,7 +26,11 @@ func moreThanHalfNum(nums:[Int]) -> Int? {
             times -= 1
         }
     }
-    return checkMoreThanHalf(nums: nums, target: result)
+    if checkMoreThanHalf(nums: nums, target: result) {
+        return result
+    } else {
+        return nil
+    }
 }
 
 func checkMoreThanHalf(nums:[Int],target:Int) -> Bool {
