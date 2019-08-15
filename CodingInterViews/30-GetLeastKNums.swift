@@ -59,6 +59,6 @@ func partion(input:inout [Int],start:Int,end:Int) -> Int {
         }
         input[right] = input[left]
     }
-    numbers[left] = pivotNum;
+    input[left] = pivoteNum;
     return left - 1
 }
