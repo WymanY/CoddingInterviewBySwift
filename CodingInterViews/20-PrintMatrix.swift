@@ -20,7 +20,7 @@ import Foundation
  
  则依次打印出数字
  
- 1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10
+ 1,2,3,4, 8,12,16,15,14,13,9,5, 6,7,11,10
  */
 
 func printMatrix(a:[[Int]]) {
@@ -29,5 +29,50 @@ func printMatrix(a:[[Int]]) {
         return
     }
     
+    var start = 0
+    let rows = a.count
+    let columns = a.first!.count
     
+    while columns > start * 2 && rows > start * 2 {
+        printMatrixInCicrcle(num: a, columns: columns, rows: rows, start: start)
+        start += 1
+    }
+    
+}
+
+private func printMatrixInCicrcle(num:[[Int]],columns:Int,rows:Int,start:Int) {
+    let endX = columns - 1 - start
+    let endY = rows - 1 - start
+    
+    //从左到右打印一行
+    var i = start
+    while i <= endX {
+        print(num[start][i])
+        i += 1
+    }
+    //从上到下
+    if start < endY {
+        i = start  + 1
+        while i <= endY {
+            print(num[i][endX])
+            i += 1
+        }
+    }
+    
+    //从右到左
+    if start < endX &&  start < endY {
+        i = endX - 1
+        while i >= start {
+            print(num[endY][i])
+            i -= 1
+        }
+    }
+    
+    if start < endX && start < endY - 1{
+        i = endY - 1
+        while i > start {
+            print(num[i][start])
+            i -= 1
+        }
+    }
 }

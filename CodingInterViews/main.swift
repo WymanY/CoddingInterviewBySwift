@@ -125,9 +125,20 @@ t3.right = t6
 
 levelTravesal(root: t1)
  
+permutation(str: ["a","b","c"])
  */
 
-permutation(str: ["a","b","c"])
+//5   6   7   8
+//9  10  11  12
+//13  14  15  16
+
+let a = [
+    [1,2,3 ,4],
+    [9,10,11,12],
+    [8,19,21,98],
+    [17,5,6,30]
+]
+printMatrix(a: a)
 
 
 
