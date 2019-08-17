@@ -148,7 +148,9 @@ var max =  findGreatestSumOfSubArray(arr: num)
 print(max)
  */
 
-
+//35-第一个只出现一次的字符
+var ch =  firstNotRepatingChar(str: Array("aagfbbccddee"))
+print(ch)
 
 
 
