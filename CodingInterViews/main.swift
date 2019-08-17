@@ -143,6 +143,10 @@ print(output)
  
  */
 
+var num =  [1,-2,3,10,-4,7,2,-5]
+var max =  findGreatestSumOfSubArray(arr: num)
+print(max)
+
 
 
 

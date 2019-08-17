@@ -13,6 +13,7 @@
 		C5368F97230060970053AA12 /* 59-SymmetricalTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5368F96230060970053AA12 /* 59-SymmetricalTree.swift */; };
 		C5385F2C22FE439700B5110C /* PrintListFormTailToHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */; };
 		C5385F2E22FE4B6B00B5110C /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */; };
+		C54CCB2B2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CCB2A2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift */; };
 		C556221622FC6785000A8C0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221522FC6785000A8C0C /* main.swift */; };
 		C556221D22FC7519000A8C0C /* ReplaceSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221C22FC7519000A8C0C /* ReplaceSpace.swift */; };
 		C5A676BD22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A676BC22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift */; };
@@ -56,6 +57,7 @@
 		C5368F96230060970053AA12 /* 59-SymmetricalTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "59-SymmetricalTree.swift"; sourceTree = "<group>"; };
 		C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintListFormTailToHead.swift; sourceTree = "<group>"; };
 		C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
+		C54CCB2A2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "31-FindGreatestSumOfSubArray.swift"; sourceTree = "<group>"; };
 		C556221222FC6785000A8C0C /* CodingInterViews */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingInterViews; sourceTree = BUILT_PRODUCTS_DIR; };
 		C556221522FC6785000A8C0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C556221C22FC7519000A8C0C /* ReplaceSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceSpace.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				C556221C22FC7519000A8C0C /* ReplaceSpace.swift */,
 				C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */,
 				C5CD92B5230458220099378B /* 30-GetLeastKNums.swift */,
+				C54CCB2A2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift */,
 			);
 			path = CodingInterViews;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				C5CD92B02302FC8E0099378B /* 27-ConvertBST2SortedList.swift in Sources */,
 				C5385F2C22FE439700B5110C /* PrintListFormTailToHead.swift in Sources */,
 				C5D9F83422FE7BB5004FD801 /* UseStackImpQueue.swift in Sources */,
+				C54CCB2B2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift in Sources */,
 				C5A676C722FFA185003A2BD4 /* 18-SubstructureOfTree.swift in Sources */,
 				C5D9F83C22FE9B84004FD801 /* Power.swift in Sources */,
 				C5368F3322FFC05C0053AA12 /* 22-TheOrderOfStack.swift in Sources */,
