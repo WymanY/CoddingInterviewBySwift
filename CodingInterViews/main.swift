@@ -152,9 +152,9 @@ print(max)
 var ch =  firstNotRepatingChar(str: Array("aagfbbccddee"))
 print(ch)
  */
-
-
-
+var str = Array("hello every body!")
+reverseSentence(str: &str)
+print(String(str))
 
 
 
