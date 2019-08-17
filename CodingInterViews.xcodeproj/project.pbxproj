@@ -14,6 +14,7 @@
 		C5385F2C22FE439700B5110C /* PrintListFormTailToHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */; };
 		C5385F2E22FE4B6B00B5110C /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */; };
 		C54CCB2B2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CCB2A2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift */; };
+		C54CCB2D2307FE0A0046F050 /* 32-NumberOf1Between1AndN.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CCB2C2307FE0A0046F050 /* 32-NumberOf1Between1AndN.swift */; };
 		C556221622FC6785000A8C0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221522FC6785000A8C0C /* main.swift */; };
 		C556221D22FC7519000A8C0C /* ReplaceSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221C22FC7519000A8C0C /* ReplaceSpace.swift */; };
 		C5A676BD22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A676BC22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift */; };
@@ -58,6 +59,7 @@
 		C5385F2B22FE439700B5110C /* PrintListFormTailToHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintListFormTailToHead.swift; sourceTree = "<group>"; };
 		C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
 		C54CCB2A2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "31-FindGreatestSumOfSubArray.swift"; sourceTree = "<group>"; };
+		C54CCB2C2307FE0A0046F050 /* 32-NumberOf1Between1AndN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32-NumberOf1Between1AndN.swift"; sourceTree = "<group>"; };
 		C556221222FC6785000A8C0C /* CodingInterViews */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingInterViews; sourceTree = BUILT_PRODUCTS_DIR; };
 		C556221522FC6785000A8C0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C556221C22FC7519000A8C0C /* ReplaceSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceSpace.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */,
 				C5CD92B5230458220099378B /* 30-GetLeastKNums.swift */,
 				C54CCB2A2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift */,
+				C54CCB2C2307FE0A0046F050 /* 32-NumberOf1Between1AndN.swift */,
 			);
 			path = CodingInterViews;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				C5A676CB22FFAC5C003A2BD4 /* 20-PrintMatrix.swift in Sources */,
 				C5CD92B6230458220099378B /* 30-GetLeastKNums.swift in Sources */,
 				C5A676C922FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift in Sources */,
+				C54CCB2D2307FE0A0046F050 /* 32-NumberOf1Between1AndN.swift in Sources */,
 				C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */,
 				C5A676C322FF012C003A2BD4 /* 16-ReverseList.swift in Sources */,
 				C5CD92B4230450460099378B /* 29-MorethanHalfNum.swift in Sources */,

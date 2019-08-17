@@ -126,7 +126,8 @@ t3.right = t6
 levelTravesal(root: t1)
  
 permutation(str: ["a","b","c"])
-
+ 
+//30
 let a = [
     [1,2,3 ,4],
     [9,10,11,12],
@@ -141,11 +142,15 @@ var nums = [3,1,12,6,-4,20,15,5];
  let output =  getLeastNums(input: nums, k: 4)
 print(output)
  
- */
-
+//-31
 var num =  [1,-2,3,10,-4,7,2,-5]
 var max =  findGreatestSumOfSubArray(arr: num)
 print(max)
+ */
+
+
+
+
 
 
 
