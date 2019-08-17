@@ -19,3 +19,17 @@ func treeDepth(root:TreeNode?) -> Int {
     let right = treeDepth(root: r.right)
     return left > right ? left + 1 : right + 1
 }
+
+//扩展问题，判断一棵树是不是平衡二叉树
+func isBalanced(root:TreeNode?) -> Bool {
+    guard let r = root else {
+        return false
+    }
+    let left = treeDepth(root: r.left)
+    let right = treeDepth(root: r.right)
+    let diff = left - right
+    if diff < -1 || diff > 1 {
+        return false
+    }
+    return isBalanced(root: root?.left) && isBalanced(root: root?.right)
+}
