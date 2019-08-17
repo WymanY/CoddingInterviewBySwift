@@ -22,7 +22,8 @@ func getLeastNums(input:[Int],k:Int) -> [Int]? {
     }
     var nums = input
     var start = 0
-    var end = input.count
+    var end = input.count - 1
+    
     var index =  partion(input: &nums, start: start, end: end)
     while index != k - 1 {
         if index > k - 1 {
@@ -36,29 +37,30 @@ func getLeastNums(input:[Int],k:Int) -> [Int]? {
     var i = 0
     var output = [Int]()
     while i < k {
-        output.append(input[i])
+        output.append(nums[i])
         i += 1
     }
     return output
 }
 
 func partion(input:inout [Int],start:Int,end:Int) -> Int {
-    let pivoteNum = input[start]
-    var left = start + 1
     
+    let pivoteNum = input[start]
+    
+    var left = start
     var right = end
     
-    while left != right{
+    while left < right{
         while left < right && input[right] >= pivoteNum {
             right -= 1
         }
         input[left] = input[right]
         
-        while left < right && input[left] < pivoteNum {
+        while left < right && input[left] <= pivoteNum {
             left += 1
         }
         input[right] = input[left]
     }
     input[left] = pivoteNum;
-    return left - 1
+    return left
 }
