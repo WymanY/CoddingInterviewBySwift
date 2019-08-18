@@ -14,13 +14,22 @@ extension String {
     }
 }
 
-public class ListNode {
+public class ListNode :Equatable {
     public var val:Int
     public var next:ListNode?
     public init(_ val:Int) {
         self.val = val
         self.next =  nil
     }
+    
+    public static func == (lhs: ListNode, rhs: ListNode) -> Bool {
+        let isValEqual = lhs.val == rhs.val
+        let isNextEqual = lhs.next == rhs.next
+        return isValEqual && isNextEqual
+        
+    }
+    
+    
 }
 
 func buildListFrom(arr:[Int]) -> ListNode {

@@ -142,6 +142,7 @@
 				C5D9F83922FE86EB004FD801 /* 10-CountOfOneInBinary.swift */,
 				C5D9F83B22FE9B84004FD801 /* 11-Power.swift */,
 				C5D9F83D22FEABB3004FD801 /* 12-PrintMaxNList.swift */,
+				C54CCB3C230934900046F050 /* 13-DeleteNodeO1.swift */,
 				C5A676BE22FEE95C003A2BD4 /* 14-ReOrderArray.swift */,
 				C5A676C022FEF6C6003A2BD4 /* 15-FindKthNodeToTail.swift */,
 				C5A676C222FF012C003A2BD4 /* 16-ReverseList.swift */,
@@ -168,7 +169,6 @@
 				C54CCB34230832F50046F050 /* 42-ReverseSentence.swift */,
 				C5368F96230060970053AA12 /* 59-SymmetricalTree.swift */,
 				C556221522FC6785000A8C0C /* main.swift */,
-				C54CCB3C230934900046F050 /* 13-DeleteNodeO1.swift */,
 			);
 			path = CodingInterViews;
 			sourceTree = "<group>";
