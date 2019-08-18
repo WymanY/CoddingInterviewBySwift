@@ -14,7 +14,7 @@ import Foundation
 
 func hasSubstree(root1:TreeNode?,root2:TreeNode?) -> Bool {
     var ret = false
-    if var r1 = root1, var r2 = root2 {
+    if let r1 = root1, let r2 = root2 {
         if r1.val == r2.val {
             ret = doesTree1HasTree2(r1: r1, r2: r2)
         }

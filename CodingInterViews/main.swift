@@ -160,8 +160,18 @@ print(max)
 //35-第一个只出现一次的字符
 var ch =  firstNotRepatingChar(str: Array("aagfbbccddee"))
 print(ch)
- */
+ 
 var str = Array("hello every body!")
 reverseSentence(str: &str)
 print(String(str))
+
+ 
+ "1,2,3,5,6"
+ */
+
+//
+
+let uglyNum = getUglyNumber(index: 5)
+print(uglyNum)
+
 
