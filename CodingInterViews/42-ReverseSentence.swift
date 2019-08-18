@@ -45,3 +45,6 @@ func reverseSentence(str:inout [Character]) {
         }
     }
 }
+
+//扩展题目，字符串的左旋转操作
+
