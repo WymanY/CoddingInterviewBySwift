@@ -156,5 +156,3 @@ var str = Array("hello every body!")
 reverseSentence(str: &str)
 print(String(str))
 
-
-

@@ -20,6 +20,8 @@
 		C54CCB3323082A250046F050 /* 39-DepthOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CCB3223082A250046F050 /* 39-DepthOfBinaryTree.swift */; };
 		C54CCB35230832F50046F050 /* 42-ReverseSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CCB34230832F50046F050 /* 42-ReverseSentence.swift */; };
 		C54CCB372308E3B90046F050 /* 37-FindFirstCommonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CCB362308E3B90046F050 /* 37-FindFirstCommonNode.swift */; };
+		C54CCB392308FC3F0046F050 /* 34-GetUglyNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CCB382308FC3F0046F050 /* 34-GetUglyNum.swift */; };
+		C54CCB3B230911CF0046F050 /* 02-Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CCB3A230911CF0046F050 /* 02-Singleton.swift */; };
 		C556221622FC6785000A8C0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221522FC6785000A8C0C /* main.swift */; };
 		C556221D22FC7519000A8C0C /* ReplaceSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556221C22FC7519000A8C0C /* ReplaceSpace.swift */; };
 		C5A676BD22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A676BC22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift */; };
@@ -70,6 +72,8 @@
 		C54CCB3223082A250046F050 /* 39-DepthOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "39-DepthOfBinaryTree.swift"; sourceTree = "<group>"; };
 		C54CCB34230832F50046F050 /* 42-ReverseSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42-ReverseSentence.swift"; sourceTree = "<group>"; };
 		C54CCB362308E3B90046F050 /* 37-FindFirstCommonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "37-FindFirstCommonNode.swift"; sourceTree = "<group>"; };
+		C54CCB382308FC3F0046F050 /* 34-GetUglyNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "34-GetUglyNum.swift"; sourceTree = "<group>"; };
+		C54CCB3A230911CF0046F050 /* 02-Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02-Singleton.swift"; sourceTree = "<group>"; };
 		C556221222FC6785000A8C0C /* CodingInterViews */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingInterViews; sourceTree = BUILT_PRODUCTS_DIR; };
 		C556221522FC6785000A8C0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C556221C22FC7519000A8C0C /* ReplaceSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceSpace.swift; sourceTree = "<group>"; };
@@ -125,9 +129,7 @@
 		C556221422FC6785000A8C0C /* CodingInterViews */ = {
 			isa = PBXGroup;
 			children = (
-				C54CCB3223082A250046F050 /* 39-DepthOfBinaryTree.swift */,
-				C54CCB34230832F50046F050 /* 42-ReverseSentence.swift */,
-				C54CCB362308E3B90046F050 /* 37-FindFirstCommonNode.swift */,
+				C54CCB3A230911CF0046F050 /* 02-Singleton.swift */,
 				C5A676BC22FEE5D8003A2BD4 /* 03-FindTargetInArray.swift */,
 				C5A676BE22FEE95C003A2BD4 /* 14-ReOrderArray.swift */,
 				C5A676C022FEF6C6003A2BD4 /* 15-FindKthNodeToTail.swift */,
@@ -137,14 +139,23 @@
 				C5A676C822FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift */,
 				C5A676CA22FFAC5C003A2BD4 /* 20-PrintMatrix.swift */,
 				C5A676CC22FFAE44003A2BD4 /* 21- minFunctionOfStack.swift */,
-				C5368F3222FFC05C0053AA12 /* 22-TheOrderOfStack.swift */,
 				C5368F34230005660053AA12 /* 21-LevelTravelsal.swift */,
+				C5368F3222FFC05C0053AA12 /* 22-TheOrderOfStack.swift */,
 				C5368F3623000FAD0053AA12 /* 24-PostOrderOfBinarySearchTree.swift */,
+				C5CD92AD2302C02F0099378B /* 26-ComplexListNodeClone.swift */,
 				C5CD92AF2302FC8E0099378B /* 27-ConvertBST2SortedList.swift */,
 				C5CD92B123030BA10099378B /* 28-permutation.swift */,
 				C5CD92B3230450460099378B /* 29-MorethanHalfNum.swift */,
+				C5CD92B5230458220099378B /* 30-GetLeastKNums.swift */,
+				C54CCB2A2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift */,
+				C54CCB2C2307FE0A0046F050 /* 32-NumberOf1Between1AndN.swift */,
+				C54CCB2E23081A570046F050 /* 33-.PrintMinNumberswift.swift */,
+				C54CCB382308FC3F0046F050 /* 34-GetUglyNum.swift */,
+				C54CCB3023081D330046F050 /* 35-FirsetNotRepeatChar.swift */,
+				C54CCB362308E3B90046F050 /* 37-FindFirstCommonNode.swift */,
+				C54CCB3223082A250046F050 /* 39-DepthOfBinaryTree.swift */,
+				C54CCB34230832F50046F050 /* 42-ReverseSentence.swift */,
 				C5368F96230060970053AA12 /* 59-SymmetricalTree.swift */,
-				C5CD92AD2302C02F0099378B /* 26-ComplexListNodeClone.swift */,
 				C5D9F83922FE86EB004FD801 /* CountOfOneInBinary.swift */,
 				C5D9F83722FE83D4004FD801 /* Fibonacci.swift */,
 				C556221522FC6785000A8C0C /* main.swift */,
@@ -155,11 +166,6 @@
 				C5385F2D22FE4B6B00B5110C /* RebuildBinaryTree.swift */,
 				C556221C22FC7519000A8C0C /* ReplaceSpace.swift */,
 				C5D9F83322FE7BB5004FD801 /* UseStackImpQueue.swift */,
-				C5CD92B5230458220099378B /* 30-GetLeastKNums.swift */,
-				C54CCB2A2307EBA40046F050 /* 31-FindGreatestSumOfSubArray.swift */,
-				C54CCB2C2307FE0A0046F050 /* 32-NumberOf1Between1AndN.swift */,
-				C54CCB2E23081A570046F050 /* 33-.PrintMinNumberswift.swift */,
-				C54CCB3023081D330046F050 /* 35-FirsetNotRepeatChar.swift */,
 			);
 			path = CodingInterViews;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 				C5CD92B223030BA10099378B /* 28-permutation.swift in Sources */,
 				C5A676CB22FFAC5C003A2BD4 /* 20-PrintMatrix.swift in Sources */,
 				C54CCB3323082A250046F050 /* 39-DepthOfBinaryTree.swift in Sources */,
+				C54CCB392308FC3F0046F050 /* 34-GetUglyNum.swift in Sources */,
 				C54CCB2F23081A570046F050 /* 33-.PrintMinNumberswift.swift in Sources */,
 				C5CD92B6230458220099378B /* 30-GetLeastKNums.swift in Sources */,
 				C5A676C922FFA654003A2BD4 /* 19-MirrorOfBinaryTree.swift in Sources */,
@@ -243,6 +250,7 @@
 				C5D9F83622FE8108004FD801 /* MinNumInRotateArray.swift in Sources */,
 				C5A676C322FF012C003A2BD4 /* 16-ReverseList.swift in Sources */,
 				C5CD92B4230450460099378B /* 29-MorethanHalfNum.swift in Sources */,
+				C54CCB3B230911CF0046F050 /* 02-Singleton.swift in Sources */,
 				C5A676C122FEF6C6003A2BD4 /* 15-FindKthNodeToTail.swift in Sources */,
 				C5A676C522FF9CE9003A2BD4 /* 17-MergeSortedList.swift in Sources */,
 				C5CD92B02302FC8E0099378B /* 27-ConvertBST2SortedList.swift in Sources */,

@@ -66,7 +66,6 @@ func rebuildBinaryTree(preOrder:[Int],inOrder:[Int]) -> TreeNode? {
     var inLeft:[Int] = [Int](repeating: 0, count: rootIndex)
     var preRight:[Int] = [Int](repeating: 0, count: len - rootIndex - 1)
     var inRight:[Int] = [Int](repeating: 0, count: len - rootIndex - 1)
-    [0,1,2,3,4,5]
     //构建数组
     var i = 0
     while i < len {
