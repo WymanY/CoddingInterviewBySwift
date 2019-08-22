@@ -31,3 +31,16 @@ func add(num1:Int,num2:Int) -> Int {
     } while num2 != 0
     return sum
 }
+
+//扩展不用临时变量做交换。
+func swap(a:inout Int,b:inout Int) {
+     a = a + b
+     b  = a - b
+     a = a - b
+}
+
+func swap2(a:inout Int, b:inout Int) {
+    a = a ^ b
+    b = a ^ b
+    a = a ^ b
+}

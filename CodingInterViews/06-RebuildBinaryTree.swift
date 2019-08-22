@@ -8,18 +8,6 @@
 
 import Foundation
 
-public class TreeNode {
-    var val:Int
-    var left:TreeNode?
-    var right:TreeNode?
-    
-    init(val:Int) {
-        self.val = val
-        self.left = nil
-        self.right = nil
-    }
-}
-
 /*前序遍历*/
 func preOrder(root:TreeNode?) {
     guard let r = root else {

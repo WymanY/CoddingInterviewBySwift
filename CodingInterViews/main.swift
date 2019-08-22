@@ -14,6 +14,25 @@ extension String {
     }
 }
 
+public class TreeNode: Equatable {
+    var val:Int
+    var left:TreeNode?
+    var right:TreeNode?
+    
+    init(val:Int) {
+        self.val = val
+        self.left = nil
+        self.right = nil
+    }
+    
+    public static func ==(lhs:TreeNode,rhs:TreeNode) -> Bool {
+        guard lhs.val == rhs.val && lhs.left == rhs.left && lhs.right == rhs.right else {
+            return false
+        }
+        return true
+    }
+}
+
 public class ListNode :Equatable {
     public var val:Int
     public var next:ListNode?
