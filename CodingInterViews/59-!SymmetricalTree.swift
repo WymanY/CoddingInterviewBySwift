@@ -8,7 +8,7 @@
 
 import Foundation
 
-func isSymmetrical(root:TreeNode?) -> Bool {
+func isSymmetrical(root:BinaryTreeNode?) -> Bool {
     guard let r = root else {
         print("tree is empty")
         return false

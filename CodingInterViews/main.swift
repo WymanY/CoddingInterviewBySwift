@@ -15,9 +15,31 @@ extension String {
 }
 
 public class TreeNode: Equatable {
+    var value:Int
+    weak var parent:TreeNode?
+    var childRen = [TreeNode]()
+    init(value:Int) {
+        self.value = value
+    }
+    
+    func addChildren(_ node:TreeNode) {
+        childRen.append(node)
+        node.parent = self
+    }
+    
+    public static func ==(lhs:TreeNode,rhs:TreeNode)->Bool {
+        if lhs.value == rhs.value && lhs.childRen == rhs.childRen {
+            return true
+        }
+        return false
+    }
+    
+}
+
+public class BinaryTreeNode: Equatable {
     var val:Int
-    var left:TreeNode?
-    var right:TreeNode?
+    var left:BinaryTreeNode?
+    var right:BinaryTreeNode?
     
     init(val:Int) {
         self.val = val
@@ -25,7 +47,7 @@ public class TreeNode: Equatable {
         self.right = nil
     }
     
-    public static func ==(lhs:TreeNode,rhs:TreeNode) -> Bool {
+    public static func ==(lhs:BinaryTreeNode,rhs:BinaryTreeNode) -> Bool {
         guard lhs.val == rhs.val && lhs.left == rhs.left && lhs.right == rhs.right else {
             return false
         }
@@ -139,12 +161,12 @@ print(node?.val)
    5 8
  7 9 11
  
-let t1 = TreeNode(val: 2)
-let t2 = TreeNode(val: 5)
-let t3 = TreeNode(val: 8)
-let t4 = TreeNode(val: 7)
-let t5 = TreeNode(val: 9)
-let t6 = TreeNode(val: 11)
+let t1 = BinaryTreeNode(val: 2)
+let t2 = BinaryTreeNode(val: 5)
+let t3 = BinaryTreeNode(val: 8)
+let t4 = BinaryTreeNode(val: 7)
+let t5 = BinaryTreeNode(val: 9)
+let t6 = BinaryTreeNode(val: 11)
 t1.left = t2
 t1.right = t3
 t2.left = t4

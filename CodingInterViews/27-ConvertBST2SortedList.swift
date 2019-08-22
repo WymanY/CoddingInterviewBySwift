@@ -15,16 +15,16 @@ import Foundation
  
  */
 
-func convert(root:TreeNode?) -> TreeNode? {
+func convert(root:BinaryTreeNode?) -> BinaryTreeNode? {
     guard let r = root else {
         return nil
     }
-    var lastNodeInList:TreeNode? = nil
+    var lastNodeInList:BinaryTreeNode? = nil
     convertNode(node: r, lastNodeInList: &lastNodeInList)
     return lastNodeInList
 }
 
-private func convertNode(node:TreeNode?,lastNodeInList:inout TreeNode?){
+private func convertNode(node:BinaryTreeNode?,lastNodeInList:inout BinaryTreeNode?){
     if node == nil {
         return
     }

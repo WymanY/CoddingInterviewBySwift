@@ -21,12 +21,12 @@ import Foundation
 
 
 /*使用辅助队列的形式实现*/
-func levelTravesal(root:TreeNode?) {
+func levelTravesal(root:BinaryTreeNode?) {
     guard let r = root else {
         print("tree should not be empty")
         return
     }
-    var queue:[TreeNode] = [r]
+    var queue:[BinaryTreeNode] = [r]
     
     while !queue.isEmpty {
         let node = queue.removeFirst()

@@ -9,7 +9,7 @@
 import Foundation
 
 /*前序遍历*/
-func preOrder(root:TreeNode?) {
+func preOrder(root:BinaryTreeNode?) {
     guard let r = root else {
         return
     }
@@ -18,7 +18,7 @@ func preOrder(root:TreeNode?) {
     preOrder(root: r.right)
 }
 /*中序遍历*/
-func inOrder(r:TreeNode?) {
+func inOrder(r:BinaryTreeNode?) {
     guard let root = r else {
         return
     }
@@ -27,7 +27,7 @@ func inOrder(r:TreeNode?) {
     inOrder(r: root.right)
 }
 
-func rebuildBinaryTree(preOrder:[Int],inOrder:[Int]) -> TreeNode? {
+func rebuildBinaryTree(preOrder:[Int],inOrder:[Int]) -> BinaryTreeNode? {
     guard preOrder.count == inOrder.count else {
         print("pre count is not equal in order")
         return nil
@@ -41,7 +41,7 @@ func rebuildBinaryTree(preOrder:[Int],inOrder:[Int]) -> TreeNode? {
     //得到前序遍历的节点数目
     let len = preOrder.count
     let value = preOrder.first!
-    let root = TreeNode(val: value)
+    let root = BinaryTreeNode(val: value)
     var rootIndex = 0
     for val in inOrder {
         if val == value {

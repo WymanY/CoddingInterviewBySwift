@@ -20,7 +20,7 @@ import Foundation
  */
 
 //第一种思路递归实现很简单，
-func mirror(tree:TreeNode?) {
+func mirror(tree:BinaryTreeNode?) {
     guard tree != nil else{
         print("tree is empty")
         return

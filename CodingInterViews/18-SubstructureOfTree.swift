@@ -12,7 +12,7 @@ import Foundation
  输入两颗二叉树A，B，判断B是不是A的子结构。
  */
 
-func hasSubstree(root1:TreeNode?,root2:TreeNode?) -> Bool {
+func hasSubstree(root1:BinaryTreeNode?,root2:BinaryTreeNode?) -> Bool {
     var ret = false
     if let r1 = root1, let r2 = root2 {
         if r1.val == r2.val {
@@ -28,7 +28,7 @@ func hasSubstree(root1:TreeNode?,root2:TreeNode?) -> Bool {
     return ret
 }
 
-func doesTree1HasTree2(r1:TreeNode?,r2:TreeNode?) -> Bool {
+func doesTree1HasTree2(r1:BinaryTreeNode?,r2:BinaryTreeNode?) -> Bool {
     if r1 == nil {
         return false
     }

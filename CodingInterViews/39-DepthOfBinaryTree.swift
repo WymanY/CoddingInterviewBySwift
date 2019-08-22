@@ -11,7 +11,7 @@ import Foundation
 /*
  39-二叉树的深度
  */
-func treeDepth(root:TreeNode?) -> Int {
+func treeDepth(root:BinaryTreeNode?) -> Int {
     guard let r = root else {
         return 0
     }
@@ -21,7 +21,7 @@ func treeDepth(root:TreeNode?) -> Int {
 }
 
 //扩展问题，判断一棵树是不是平衡二叉树
-func isBalanced(root:TreeNode?) -> Bool {
+func isBalanced(root:BinaryTreeNode?) -> Bool {
     guard let r = root else {
         return false
     }
